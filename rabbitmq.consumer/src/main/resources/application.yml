@@ -1,0 +1,19 @@
+server:
+  port: 3700
+
+spring:
+  application:
+    name: rabbitmq-consumer
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+logging:
+  level:
+   root: info
+   #org.springframework.amqp: debug
+   #org.springframework.web: trace
+   #org.apache: trace
+   
+    
